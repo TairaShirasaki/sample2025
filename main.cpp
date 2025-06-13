@@ -1,5 +1,9 @@
 #include <iostream>
 
+int function(int x){
+  return x*x;
+}
+
 int main(void){
 
   std::cout << "git" << std::endl;
@@ -9,6 +13,7 @@ int main(void){
     std::cout << i << std::endl;
   }
 
+  std::cout << function(3) << std::endl; 
 
   
   return 0;
