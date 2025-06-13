@@ -13,7 +13,8 @@ int main(void){
     std::cout << i << std::endl;
   }
 
-  std::cout << function(3) << std::endl; 
+  std::cout << function(3) << std::endl;
+  std::cout << "a" << std::endl;
 
   
   return 0;
